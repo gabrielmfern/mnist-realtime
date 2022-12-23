@@ -77,15 +77,15 @@ fn main() {
         print!("\x1B[2J");
 
         println!("Probabilidade de ser cada digito: ");
-        println!("    '0': {}", per_digit_probability[0]);
-        println!("    '1': {}", per_digit_probability[1]);
-        println!("    '2': {}", per_digit_probability[2]);
-        println!("    '3': {}", per_digit_probability[3]);
-        println!("    '4': {}", per_digit_probability[4]);
-        println!("    '5': {}", per_digit_probability[5]);
-        println!("    '6': {}", per_digit_probability[6]);
-        println!("    '7': {}", per_digit_probability[7]);
-        println!("    '8': {}", per_digit_probability[8]);
-        println!("    '9': {}", per_digit_probability[9]);
+        println!("    '0': {:.2}%", per_digit_probability[0] * 100.0);
+        println!("    '1': {:.2}%", per_digit_probability[1] * 100.0);
+        println!("    '2': {:.2}%", per_digit_probability[2] * 100.0);
+        println!("    '3': {:.2}%", per_digit_probability[3] * 100.0);
+        println!("    '4': {:.2}%", per_digit_probability[4] * 100.0);
+        println!("    '5': {:.2}%", per_digit_probability[5] * 100.0);
+        println!("    '6': {:.2}%", per_digit_probability[6] * 100.0);
+        println!("    '7': {:.2}%", per_digit_probability[7] * 100.0);
+        println!("    '8': {:.2}%", per_digit_probability[8] * 100.0);
+        println!("    '9': {:.2}%", per_digit_probability[9] * 100.0);
     }
 }
