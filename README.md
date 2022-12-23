@@ -28,4 +28,6 @@ This though is not shown in the code here since it is loaded using [savefile](ht
 To use this you will need SDL and when building you will need SDL2 libs as well as SDL2_image's lib.
 
 When pressing `CTRL-Z` the drawn image will be deleted.
-When clicking it will start being drawn into the window and the model will be predicting in real-time to the terminal.
+
+When clicking inside the window you will start to draw into 
+the window and the model will be predicting in real-time to the terminal.
