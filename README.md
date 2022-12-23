@@ -29,7 +29,7 @@ To know how it was trained checkout the acutal training code disposed in the Int
 
 ## Usage
 
-![Testing the MNIST Real-time](https://github.com/gabrielmfern/mnist-realtime/blob/main/testing.webm)
+![Testing the MNIST Real-time](https://github.com/gabrielmfern/mnist-realtime/blob/main/testing.gif)
 
 To use this you will need SDL and when building you will need SDL2 libs as well as SDL2_image's lib.
 
