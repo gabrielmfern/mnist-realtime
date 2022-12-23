@@ -1,0 +1,15 @@
+[package]
+name = "mnist-realtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+intricate = "0.7.0"
+simple = { git = "https://github.com/gabrielmfern/simple" }
+savefile="0.10"
+rayon="*"
+
+[dependencies.sdl2]
+version = "0.32.1"
+default-features = false
+features = ["image", "unsafe_textures"]
