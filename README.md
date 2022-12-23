@@ -27,12 +27,9 @@ This though is not shown in the code here since it is loaded using [savefile](ht
 To know how it was trained checkout the acutal training code disposed in the Intricate MNIST 
 [example](https://github.com/gabrielmfern/intricate/blob/main/examples/mnist/main.rs).
 
-## Some cool images
-
-![Drawing a two](https://github.com/gabrielmfern/mnist-realtime/blob/main/two-test.png?raw=true)
-![Drawing a three](https://github.com/gabrielmfern/mnist-realtime/blob/main/three-test.png?raw=true)
-
 ## Usage
+
+![Testing the MNIST Real-time](https://github.com/gabrielmfern/mnist-realtime/blob/main/testing.webm)
 
 To use this you will need SDL and when building you will need SDL2 libs as well as SDL2_image's lib.
 
