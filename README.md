@@ -4,9 +4,13 @@ A very simple Real-time application that you can draw that then goes through an 
 
 ## Arcitecture
 
-The arcitecture for this model is very simple and can its layers can be written with the following Intricate code:
+The arcitecture for this model is very simple and the Model can be written with the following Intricate code:
 
 ```rust
+use intricate::Model;
+use intricate::layers::{Conv2D, Dense};
+use intricate::layers::activations::{ReLU, SoftMax};
+
 let mut mnist_model: Model = Model::new(vec![
     Conv2D::new((28, 28), (3, 3)),
     ReLU::new(26 * 26),
@@ -17,6 +21,11 @@ let mut mnist_model: Model = Model::new(vec![
 ```
 
 This though is not shown in the code here since it is loaded using [savefile](https://github.com/avl/savefile).
+
+## Training
+
+To know how it was trained checkout the acutal training code disposed in the Intricate MNIST 
+[example](https://github.com/gabrielmfern/intricate/blob/main/examples/mnist/main.rs).
 
 ## Some cool images
 
